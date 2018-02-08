@@ -12,7 +12,7 @@ class EmailParser
   end
   
   def parse
-    emails.split(',')
+    email.split(',')
   end.flatten.uniq
 end
   
